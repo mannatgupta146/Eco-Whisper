@@ -47,3 +47,90 @@ html, body {
     display: flex;
 }
 
+#hero{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0vw 7vw;
+    margin-top: 7.8vw;
+}
+
+#sus{
+     width: 13.7vw;
+}
+
+#sus p{
+    font-weight: 800;
+    opacity: .5;
+    font-size: 13px;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+#sus #susimage{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 16vw;
+}
+
+#sus #susimage img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140%;
+    height: 140%;
+    object-fit: cover;
+}
+
+#eph{
+    position: relative;
+    width: 30vw;
+    height: 42vw;
+    background-color: red;
+}
+
+#eph img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#eph p{
+    position: absolute;
+    font-size: 1.3vw;
+    letter-spacing: -.05vw;
+    width: 60%;
+    top: 105%;
+}
+
+#eph #headings{
+    position: absolute;
+    top: -15%;
+    left: -12%;
+}
+
+#eph #headings h1{
+    letter-spacing: -.3vw;
+    font-size: 4.8vw;
+    font-weight: 200;
+    line-height: 1;
+}
+
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#visit i{
+    font-size: 30px;
+    opacity: .7;
+}
+
+#visit h3{
+    font-weight: 400;
+    color: #5e5e5e;
+}
