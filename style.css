@@ -53,18 +53,19 @@ html, body {
     display: flex;
     width: 100%;
     padding: 0vw 7vw;
-    margin-top: 7.8vw;
+    margin-top: 7.5vw;
 }
 
 #sus{
      width: 13.7vw;
+     margin-top: -5%;
 }
 
 #sus p{
     font-weight: 800;
     opacity: .5;
     font-size: 13px;
-    margin: 10px 0;
+    margin: 5px 0;
     text-transform: capitalize;
 }
 
@@ -88,8 +89,13 @@ html, body {
 #eph{
     position: relative;
     width: 30vw;
-    height: 42vw;
-    background-color: red;
+    min-height: 42vw;
+    margin-top: 2%;
+}
+
+#imgtext{
+    width: fit-content;
+    height: fit-content;
 }
 
 #eph img{
@@ -99,11 +105,9 @@ html, body {
 }
 
 #eph p{
-    position: absolute;
     font-size: 1.3vw;
     letter-spacing: -.05vw;
-    width: 60%;
-    top: 105%;
+    width: 38%;
 }
 
 #eph #headings{
@@ -133,4 +137,27 @@ html, body {
 #visit h3{
     font-weight: 400;
     color: #5e5e5e;
+}
+
+#motive{
+    display: flex;
+    justify-content: space-between;
+    padding: 9vw 7vw;
+}
+
+#motive p{
+    margin-top: 3vw;
+    position: relative;
+    width: 80%;
+    font-size: 2vw;
+}
+
+#motive span{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 100px;
+    margin-bottom: -12.5px;
+    background-color: aqua;
 }
