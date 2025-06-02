@@ -159,20 +159,104 @@ html, body {
     margin: 0 10px;
     border-radius: 100px;
     margin-bottom: -12.5px;
-    background-color: aqua;
 }
 
 #onespan{
     width: 80px;
     height: 50px;
+    background-image: url("./images/bluegirl.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #twospan{
     width: 120px;
     height: 50px;
+    background-image: url("./images/shaljam.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #threespan{
     width: 80px;
     height: 50px;
+    background-image: url("./images/grass.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    padding-left: 14vw;
+}
+
+#firstpic{
+    width: 15vw;
+}
+
+#firstpic #picimg{
+    width: 100%;
+    height: 22vw;
+    margin-bottom: 1vw;
+    background-color: black;
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstpic h2, #secpic h2{
+    letter-spacing: -.05vw;
+}
+
+#firstpic p{
+    opacity: .5;
+    font-weight: 600;
+    font-size: 1.1vw;
+    margin-top: 10px;
+    width: 65%;
+}
+
+#secpic{
+    width: 25vw;
+    flex-direction: column;
+    display: flex;
+    align-items: end;
+}
+
+#secpic #picimg{
+    width: 100%;
+    height: 35vw;
+    margin-bottom: 1vw;
+}
+
+#secpic p{
+    opacity: .5;
+    font-weight: 600;
+    font-size: 1.1vw;
+    margin-top: 10px;
+    width: 55%;
+    text-align: right;
+}
+
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+    height: 60vh;
+    background-color: coral;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
 }
