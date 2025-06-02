@@ -146,6 +146,7 @@ html, body {
 }
 
 #motive p{
+    line-height: 1.5;
     margin-top: 3vw;
     position: relative;
     width: 80%;
@@ -154,10 +155,24 @@ html, body {
 
 #motive span{
     display: inline-block;
-    width: 120px;
     height: 50px;
     margin: 0 10px;
     border-radius: 100px;
     margin-bottom: -12.5px;
     background-color: aqua;
+}
+
+#onespan{
+    width: 80px;
+    height: 50px;
+}
+
+#twospan{
+    width: 120px;
+    height: 50px;
+}
+
+#threespan{
+    width: 80px;
+    height: 50px;
 }
