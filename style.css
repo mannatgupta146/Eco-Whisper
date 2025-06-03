@@ -28,6 +28,7 @@ html, body {
 }
 
 #nav a{
+    display: inline-block;
     font-weight: 700;
     font-size: 16px;
     color: #000;
@@ -77,12 +78,8 @@ html, body {
 }
 
 #sus #susimage img{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 140%;
-    height: 140%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -200,7 +197,6 @@ html, body {
     width: 100%;
     height: 22vw;
     margin-bottom: 1vw;
-    background-color: black;
 }
 
 #picimg img{
@@ -247,7 +243,8 @@ html, body {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-top: 8vw;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
 }
 
 #bimg{

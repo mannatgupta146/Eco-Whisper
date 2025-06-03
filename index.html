@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" 
     integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,24 +18,26 @@
         <div id="home">
             <div id="nav">
                 <div id="nleft">
-                <a href="#">Home</a><a href="#">Pricing</a><a href="#">Products</a>
+                <a class="nlink" href="#">Home</a>
+                <a class="nlink" href="#">Pricing</a>
+                <a class="nlink" href="#">Products</a>
             </div>
-            <a id="centeratag" href="#">Mannat Gupta</a>
+            <a class="nlink" id="centeratag" href="#">Mannat Gupta</a>
                 <div id="nright">
-                <a href="#">Our Journey</a>
+                <a class="nlink" href="#">Our Journey</a>
                 </div>
             </div>
             <div id="hero">
-               <div id="sus">
+               <div class="anim" id="sus">
                 <h5>01.</h5>
                 <h2>Sustainability.</h2>
                 <p>Comminted to sustainability, eco-friendly choices for a better tomorrow.</p>
-                <div id="susimage">
+                <div class="yes" id="susimage">
                     <img src="./images/pinkgreenplant.jpg" alt="">
                 </div>
                </div>
 
-               <div id="eph">
+               <div class="anim" id="eph">
                 <div id="headings">
                     <h1>Ephemeral</h1>
                     <h1>Equilibrium.</h1>
@@ -46,13 +49,14 @@
             
                </div>
 
-               <div id="visit">
+               <div class="anim" id="visit">
                 <i class="ri-arrow-down-circle-fill"></i>
                 <h3>Visit our gallery.</h3>
                </div>
             </div>
-
-            <div id="motive">
+  
+        </div>   
+         <div id="motive">
                 <h3>Our motive</h3>
                 <p>
                     At <strong>Eco Whisper</strong>, we believe in the quiet power of nature — a world where 
@@ -65,26 +69,27 @@
             </div>
             <div id="pictures">
                 <div id="firstpic">
-                    <div id="picimg">
+                    <div class="yes" id="picimg">
                         <img src="./images/sea.jpg" alt="">
                     </div>
                     <h5>02.</h5>
                     <h2>Synergy.</h2>
                     <p>Together, we grow with the Earth.</p>
-                </div>.
+                </div>
 
                 <div id="secpic">
-                    <div id="picimg">
+                    <div class="yes" id="picimg">
                         <img src="./images/cloud.jpg" alt="">
                     </div>
                     <h5>03.</h5>
                     <h2>Harmony.</h2>
                     <p>Soft whispers drift where sky meets earth.</p>
-                </div>.
+                </div>
             </div>
             <div id="banner">
-                <div id="bimg">
+                <div class="yes" id="bimg">
                     <img src="./images/bottle.jpg" alt="">
+                    <img src="./images/bottle2.jpg" alt="">
                 </div>
                 <div id="btext">
                      <h5>04.</h5>
@@ -99,10 +104,11 @@
                     <button>join the movement</button>
                 </div>
             </div>
-        </div>   
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
