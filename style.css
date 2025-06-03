@@ -315,3 +315,177 @@ html, body {
     color: #5e5e5e;
     border: 1px solid #c6c6c6;
 }
+
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  #nav {
+    padding: 2vw 4vw;
+  }
+
+  #nav a {
+    font-size: 14px;
+  }
+
+  #nav #centeratag {
+    font-size: 16px;
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #hero {
+    flex-direction: column;
+    padding: 2vw 4vw;
+    margin-top: 5vw;
+  }
+
+  #sus {
+    width: 25vw;
+    margin-top: 0;
+  }
+
+  #eph {
+    width: 80vw;
+    min-height: auto;
+    margin-top: 3vw;
+  }
+
+  #eph p {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  #motive {
+    flex-direction: column;
+    padding: 4vw 4vw;
+  }
+
+  #motive p {
+    width: 100%;
+    font-size: 3vw;
+    margin-top: 1.5vw;
+  }
+
+  #pictures {
+    flex-direction: column;
+    padding-left: 4vw;
+  }
+
+  #firstpic, #secpic {
+    width: 100%;
+    margin-bottom: 3vw;
+  }
+
+  #firstpic #picimg, #secpic #picimg {
+    height: 40vw;
+  }
+
+  #banner {
+    flex-direction: column;
+  }
+
+  #bimg, #btext {
+    width: 100%;
+    height: auto;
+  }
+
+  #bimg img {
+    object-position: center;
+  }
+
+  #btext p {
+    width: 100%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  #nav {
+    flex-direction: column;
+    padding: 1.5vw 3vw;
+  }
+
+  #nav a {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  #nav #centeratag {
+    font-size: 14px;
+    position: static;
+    transform: none;
+    margin-top: 0;
+  }
+
+  #hero {
+    flex-direction: column;
+    padding: 1vw 3vw;
+    margin-top: 4vw;
+  }
+
+  #sus {
+    width: 80vw;
+    margin-top: 0;
+  }
+
+  #eph {
+    width: 100%;
+    min-height: auto;
+    margin-top: 2vw;
+  }
+
+  #eph p {
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  #motive {
+    padding: 3vw 3vw;
+    flex-direction: column;
+  }
+
+  #motive p {
+    font-size: 4vw;
+    width: 100%;
+    margin-top: 1vw;
+  }
+
+  #pictures {
+    flex-direction: column;
+    padding-left: 3vw;
+  }
+
+  #firstpic, #secpic {
+    width: 100%;
+    margin-bottom: 2vw;
+  }
+
+  #firstpic #picimg, #secpic #picimg {
+    height: 50vw;
+  }
+
+  #banner {
+    flex-direction: column;
+  }
+
+  #bimg, #btext {
+    width: 100%;
+    height: auto;
+  }
+
+  #bimg img {
+    object-position: center;
+  }
+
+  #btext p {
+    width: 100%;
+    font-size: 3.5vw;
+  }
+
+  #ftext button {
+    font-size: 2vw;
+    padding: 1vw 2vw;
+  }
+}
