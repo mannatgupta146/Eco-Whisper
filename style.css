@@ -209,7 +209,7 @@ html, body {
     object-fit: cover;
 }
 
-#firstpic h2, #secpic h2{
+#firstpic h2, #secpic h2, #btext h2{
     letter-spacing: -.05vw;
 }
 
@@ -244,14 +244,15 @@ html, body {
 }
 
 #banner{
+    display: flex;
+    align-items: center;
     width: 100%;
     margin-top: 8vw;
 }
 
 #bimg{
-    width: 65%;
-    height: 60vh;
-    background-color: coral;
+    width: 60%;
+    height: 70vh;
 }
 
 #bimg img{
@@ -259,4 +260,62 @@ html, body {
     height: 100%;
     object-fit: cover;
     object-position: 0% 70%;
+}
+
+#btext{
+    width: 35%;
+    padding: 0 5vw;
+}
+
+#btext p{
+    opacity: .5;
+    font-weight: 600;
+    font-size: 1.1vw;
+    margin-top: 20px;
+    width: 60%;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+#future video{
+    opacity: .1;
+    width: 100%;
+    transform: translate(-50%, -50%) scale(1.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#ftext{
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 20px;
+}
+
+
+#ftext button{
+    padding: .7vw 1.2vw;
+    margin-top: 10px;
+    font-size: 1vw;
+    text-transform: capitalize;
+    letter-spacing: -.05vw;
+    font-weight: 600;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #5e5e5e;
+    border: 1px solid #c6c6c6;
 }
