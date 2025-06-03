@@ -1,5 +1,5 @@
 Shery.mouseFollower();
-Shery.makeMagnet(".magnet, .logo");
+Shery.makeMagnet(".nlink, .anim h3, #motive p, #ftext button, h2");
 
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
