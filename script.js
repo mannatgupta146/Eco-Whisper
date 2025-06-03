@@ -52,3 +52,23 @@ Shery.imageEffect("#bimg ",{
     style: 5,
     gooey: true,
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector("#ftext button");
+  if (btn) {
+    btn.addEventListener("mouseover", () => {
+      gsap.to("#future video", {
+        opacity: 1,
+        duration: 1,
+        ease: "power5.out"
+      });
+    });
+    btn.addEventListener("mouseleave", () => {
+      gsap.to("#future video", {
+        opacity: 0,
+        duration: 1,
+        ease: "power5.out"
+      });
+    });
+  } 
+});
