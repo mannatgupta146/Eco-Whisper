@@ -71,4 +71,4 @@ Feel free to open issues or submit pull requests on the repository. Please follo
 Thank you for helping make Eco Whisper better for everyone!
 ---
 
-**Together, let's build a cleaner, greener future with Eco Whisper!**
+***Together, let's build a cleaner, greener future with Eco Whisper!***
