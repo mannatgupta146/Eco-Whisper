@@ -69,6 +69,7 @@ Feel free to open issues or submit pull requests on the repository. Please follo
 6. Test thoroughly to ensure nothing breaks  
 
 Thank you for helping make Eco Whisper better for everyone!
+
 ---
 
 ***Together, let's build a cleaner, greener future with Eco Whisper!***
